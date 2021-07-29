@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet'>
+    <link rel="icon" href="icon.ico" sizes="32x32" type="image/png">
+    <title>Weight Converter</title>
+</head>
+<body>
+        <div class="header">
+            <img src="icon.png" width="80" height="80" class="image">
+            <h1>Weight Converter</h1>
+        </div>
+        <div id="container">
+            <h3>From kilograms to pounds</h3>
+            <p>Enter your weight in kilograms:</p>
+            <input id="inputKilograms" type="number" oninput= "kgtop(this.value)" onchange="kgtop(this.value)">
+            <p>Your weight in pound is: </p>
+            <div id="outputPounds"></div>
+        </div>
+        <div id="container">
+            <h3>From pounds to kilograms</h3>
+            <p>Enter your weight in pounds:</p>
+            <input id="inputPounds" type="number" oninput= "ptokg(this.value)" onchange="ptokg(this.value)">
+            <p>Your weight in kilograms is: </p>
+            <div id="outputKilograms"></div>
+        </div>
+    <script src="weightConverter.js"></script>
+</body>
+</html>
