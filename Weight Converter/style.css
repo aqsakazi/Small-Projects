@@ -1,0 +1,56 @@
+body {
+    background-color: #003638;
+    font-family: 'ABeeZee';font-size: 22px;
+}
+
+.header {
+    display: flex;
+}
+
+h1 {
+    color: #267476;
+    font-weight: bolder;
+}
+
+.image {
+    margin: 8px;
+}
+
+#container {
+    background-color: #022C2E;
+    color: #F3F2C9;
+    border-radius: 25px;
+    width: 360px;
+    height: 360px;
+    display: inline-block;
+    padding: 3px;
+    font-size: 13;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 5px;
+    padding-right: 5px;
+    vertical-align: middle;
+    *margin: 0 20px 0 20px;
+}
+
+h3 {
+    align-items: center;
+    text-align: center;
+    font-size: 16;
+    font-weight: bolder;
+}
+
+#inputKilograms, #inputPounds, #outputPounds, #outputKilograms {
+    height: 40px;
+    width: 160px;
+    background-color: #2C6769;
+    align-items: center;
+    text-align: center;
+    border-style: hidden;
+    border-radius: 15px;
+    color: #F3F2C9;
+    font-size: large;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 3px;
+}
